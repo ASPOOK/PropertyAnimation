@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" > 
+    <LinearLayout           
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"> 
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade Out"/>
+            <Button
+                android:id="@+id/btn2" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade Out/Fade In:Sequentially"/>
+            <Button 
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade Out/Fade In:Builder"/>
+            <Button 
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade Out/Fade In:XML"/>
+            <Button
+                android:id="@+id/btn5" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PVHolder"/>
+            <Button 
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ViewAnimator"/>
+            <Button
+                android:id="@+id/btn7" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type Evaluator(测移动button)"/>
+            <Button
+                android:id="@+id/btn8" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Key Frames"/>
+            <TextView
+                    android:id="@+id/tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时光的河入海流，终于我们分头走。没有哪个港口，是永远的停留，脑海之中有一个，凤凰花开的路口，有我最珍惜的朋友。"/>  
+        </LinearLayout>
+     
+
+ </LinearLayout>
